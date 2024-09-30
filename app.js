@@ -27,9 +27,9 @@ function stopTimer(){
     
 }
 function resetTimer(){
-    count=0
-    scnd.innerHTML=0
-    mint.innerHTML=0
-    hours.innerHTML=0
+    count="00"
+    scnd.innerHTML="00"
+    mint.innerHTML="00"
+    hours.innerHTML="00"
     clearInterval(timer)
 }
